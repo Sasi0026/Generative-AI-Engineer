@@ -1,7 +1,5 @@
 # GenAI-Projects
-## Generative AI Projects
-
-Welcome to my Generative AI Projects repository! 🎨🤖
+## Welcome to my Generative AI Projects repository! 🎨🤖
 
 This repository is a sandbox for exploring, building, and learning about generative AI, inspired by some of the most insightful books on the subject. Whether you're interested in dive-deep experiments or curious about practical applications, this repo is here to document the journey.
 
