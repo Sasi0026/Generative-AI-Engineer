@@ -1,5 +1,5 @@
 # GenAI-Projects
-##Generative AI Projects
+## Generative AI Projects
 
 Welcome to my Generative AI Projects repository! 🎨🤖
 
