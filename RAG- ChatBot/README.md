@@ -57,21 +57,17 @@ The chatbot will search the internet for up-to-date answers and respond with rel
 
 ---
 
-## 🖼️ Example Output / Screenshots
+## 🖼️ Example Output 
 
-Include screenshots of your Colab or terminal output here to showcase the bot’s capabilities! For example:
 
-![Example response from the chatbot](screenshots/example_response.png![image](https://github.com/user-attachments/assets/84ecbcb7-a456-45ce-87f4-ef8986976b15)
-)
+The bot receives the user query, invokes the Tavily internet search tool behind the scenes, fetches content from multiple sources, and returns a short, summarized list of the most recent research papers on humanoid robots from the specified institutions—all in a clear, concise manner:
 
-Or paste sample output:
 
-```
-1. "Stanford Humanoid Advances 2024" - https://arxiv.org/abs/2405.12345
-2. "IIT Bombay: Learning-based Control for Humanoids" - https://ieeexplore.ieee.org/document/9876543
-3. "IIT Kharagpur: Robust Bipedal Walking" - https://journals.sagepub.com/doi/10.1177/123456789
-...
-```
+**Explanation:**  
+- The chatbot analyzes the user's question and determines that up-to-date information is needed.
+- It invokes the Tavily internet search tool, submitting queries for relevant research papers from Stanford, IIT Bombay, and IIT Kharagpur.
+- The bot aggregates information from various web sources and summarizes it into a concise, easy-to-read list with paper titles 
+- This demonstrates the chatbot’s internet-augmented retrieval and summarization capability.
 
 ---
 
@@ -91,7 +87,7 @@ rag-chatbot/
 
 - Utilizes a state graph (LangGraph) to manage dialogue and decide when to invoke search tools.
 - Integrates Groq’s Llama-3.1-8B-Instant model for intelligent conversation.
-- When a question requires internet search, uses TavilySearchResults to fetch and summarize latest data.
+- When a question requires internet search, uses TavilySearchResults to fetch and summarize the latest data.
 - Maintains conversation history using memory checkpoints.
 
 ---
@@ -102,12 +98,6 @@ Contributions and suggestions are welcome! Please open an issue or submit a pull
 
 ---
 
-## 📄 License
-
-[MIT License](../LICENSE)  
-© 2025 Sasi0026
-
----
 
 ## 🔗 References
 
@@ -115,4 +105,3 @@ Contributions and suggestions are welcome! Please open an issue or submit a pull
 - [LangChain](https://github.com/langchain-ai/langchain)
 - [Groq Llama3](https://groq.com/products/llama3/)
 - [Tavily Search API](https://app.tavily.com/)
-
