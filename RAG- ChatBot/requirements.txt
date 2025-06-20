@@ -1,0 +1,7 @@
+langgraph==0.2.39
+langsmith
+langchain==0.3.4
+langchain-community
+langchain-groq
+tavily-python
+python-dotenv
